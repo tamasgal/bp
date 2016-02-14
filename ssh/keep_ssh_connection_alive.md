@@ -1,3 +1,5 @@
+# Keep an SSH connection alive
+
 To keep an SSH connection alive (it mostly makes sense for an SSH tunnel for example) the best practise is to use `autossh`:
 
     autossh -M 20000 ...
